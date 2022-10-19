@@ -19,6 +19,9 @@ img {
 .img2 {
     height: 400px;
 }
+.img3 {
+    height: 300px;
+}
 .feature {
     color: white;
 }
@@ -48,4 +51,13 @@ img {
 }
 .gallery img {
     border-radius: 5%;
+}
+.services{
+    color: chartreuse;
+}
+footer {
+    color: coral;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
 }

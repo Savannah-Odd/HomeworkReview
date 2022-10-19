@@ -22,6 +22,12 @@ img {
 .img3 {
     height: 300px;
 }
+.img4 {
+    height: 400px;
+}
+.pfp{
+    height: 50px;
+}
 .feature {
     color: white;
 }
@@ -56,7 +62,7 @@ img {
     color: chartreuse;
 }
 footer {
-    color: rgb(190, 28, 28);
+    color: rgb(167, 189, 255);
     font-size: 1rem;
     margin: 0;
     padding: 1rem;

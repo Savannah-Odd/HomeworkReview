@@ -1,9 +1,51 @@
 html, body {
     height: 100%;
     font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .gradient{
     background: rgb(56,7,79);
-background: linear-gradient(90deg, rgba(56,7,79,1) 0%, rgba(204,29,182,1) 35%, rgba(51,178,204,1) 100%);
+    background: linear-gradient(90deg, rgba(56,7,79,1) 0%, rgba(204,29,182,1) 35%, rgba(51,178,204,1) 100%);
+}
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: white;
+}
+img {
+    height: 500px;
+}
+.img2 {
+    height: 400px;
+}
+.feature {
+    color: white;
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.featureul li {
+    padding-left: 2rem;
+    background-image: url(../img/check.svg);
+    background-repeat: none;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.icon {
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    background-color: antiquewhite;
+}
+.gallery img {
+    border-radius: 5%;
 }
